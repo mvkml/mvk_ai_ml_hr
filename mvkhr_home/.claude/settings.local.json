@@ -4,5 +4,6 @@
       "Bash(npm --version)",
       "Bash(ng version *)"
     ]
-  }
+  },
+  "enabledMcpjsonServers": ["ucmcpapi"]
 }

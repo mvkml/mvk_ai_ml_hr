@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "UC MCP API - Debug",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["main:app", "--port", "8000", "--reload"],
+      "jinja": true,
+      "justMyCode": true,
+      "cwd": "${workspaceFolder}/mvkapi/fastapi/ucmcpapi",
+      "envFile": "${workspaceFolder}/mvkapi/fastapi/ucmcpapi/.env",
+      "console": "integratedTerminal"
+    }
+  ]
+}
